@@ -54,8 +54,8 @@ header nav ul {
 
 header nav ul a {
     padding: 10px 15px;
-    font-size: 1.55vw;
-    text-shadow: 0 0 8px rgb(222,166,55, .8);
+    font-size: 20px;
+    text-shadow: 1px 1px 1px var(--violet);
 }
 
 /* Hero Styles Start */
@@ -71,8 +71,12 @@ header nav ul a {
 .catch-phrase h1{
      padding: 20px;
      margin: 30px;
+     background-color: rgb(49,38,44, .4);
      font-weight: bold;
+     font-size: small;
      color: var(--white);
+     text-shadow: 0 0 12p rgb(42,76,49);
+     text-align: center;
      border: 5px solid rgb(36,187,206, .75);
      box-shadow:
      inset -2px -2px 8px 4px var(--light-blue),
