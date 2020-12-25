@@ -1,0 +1,9 @@
+/* Variable Styles */
+:root {
+    /* Color Palette */
+    --black: rgb(3,4,4);
+    --rust: rgb(217,145,41);
+    --white: rgb(239,224,216);
+    --gray: rgb(114,102,103);
+    --green: rgb(31,52,45);
+}
