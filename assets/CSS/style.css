@@ -24,7 +24,7 @@ body {
 /* Header Nav Styles Start */
 header a {
     text-decoration: none;
-    color: var(--rust);
+    color: var(--white);
     
 }
 
@@ -42,7 +42,7 @@ header h1 {
     }
 
 header h1 a {
-    text-shadow: .2vw .15vw var(--green);
+    text-shadow: .2vw .15vw var(--violet);
 }
 header nav ul {
     display:flex;
@@ -55,12 +55,13 @@ header nav ul {
 header nav ul a {
     padding: 10px 15px;
     font-size: 1.55vw;
+    text-shadow: 0 0 8px rgb(222,166,55, .8);
 }
 
 /* Hero Styles Start */
 .hero {
     background-image: url("../Images/hero.jpg");
-    height: 300px;
+    height: 250px;
     background-size: cover;
     background-position: 80%;
     display: flex;
@@ -72,10 +73,10 @@ header nav ul a {
      margin: 30px;
      font-weight: bold;
      color: var(--white);
-     border: 5px solid rgb(36,187,206, .65);
+     border: 5px solid rgb(36,187,206, .75);
      box-shadow:
-     inset -2px -2px 5px 2px var(--light-blue),
-     inset 2px 2px 5px 2px var(--light-blue), 
+     inset -2px -2px 8px 4px var(--light-blue),
+     inset 2px 2px 8px 4px var(--light-blue), 
      0 0 10px 5px var(--light-blue);     
 }
 
