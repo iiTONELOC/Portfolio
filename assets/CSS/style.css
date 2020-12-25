@@ -47,16 +47,21 @@ header h1 a {
 header nav ul {
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
+   
 }
 
-header nav ul a {
-    padding: 10px 15px;
+header nav ul li a {
+    padding: 15px 15px 0 15px;
+    margin: 15px;
     font-size: 20px;
     text-shadow: 1px 1px 1px var(--violet);
+    border-bottom: 3px solid rgb(222,166,55, .8);
+   
 }
+
 
 /* Hero Styles Start */
 .hero {
