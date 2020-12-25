@@ -90,6 +90,34 @@ header nav ul li a {
      0 0 10px 5px var(--light-blue);     
 }
 
+/* About Section Styles Start */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    }
+
+
+.about-me {
+    margin: 10px;
+    padding: 15px;
+    width: 25%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    text-align: right;
+    
+}
+
+.about-content{
+    width: 70%;
+    padding: 20px;
+    align-items: flex-end;
+    margin-left: 15px;
+    box-shadow: -8px 0 6px -6px rgb(36,187,206, .8);
+}
+
 
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
