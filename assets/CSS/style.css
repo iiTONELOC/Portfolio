@@ -118,6 +118,10 @@ header nav ul li a {
     box-shadow: -8px 0 6px -6px rgb(36,187,206, .8);
 }
 
+.about-content p:nth-child(odd){
+    margin-bottom: 15px;    
+}
+
 
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
