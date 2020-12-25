@@ -10,7 +10,7 @@
     --dark-blue: rgb(40,85,153);
     --violet: rgb(119,47,97);
 }
-/* Remove Margins, Change model, Smooth scroll */
+/* Remove Margins,set model, Smooth scroll */
 * {box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -18,8 +18,9 @@
 }
 /* Set Font style and color */
 body {
-    color: var(--green);
+    color: var(--white);
     font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--black);
 }
 /* Header Nav Styles Start */
 header a {
@@ -82,7 +83,7 @@ header nav ul li a {
      color: var(--white);
      text-shadow: 0 0 12p rgb(42,76,49);
      text-align: center;
-     border: 5px solid rgb(36,187,206, .75);
+     border: 5px solid rgba(36,187,206, 0.89);
      box-shadow:
      inset -2px -2px 8px 4px var(--light-blue),
      inset 2px 2px 8px 4px var(--light-blue), 
