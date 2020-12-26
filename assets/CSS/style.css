@@ -8,27 +8,26 @@
     --green: rgb(42,76,49);
     --light-blue: rgb(36,187,206);
     --dark-blue: rgb(40,85,153);
-    --violet: rgb(119,47,97);
-   
+    --violet: rgb(119,47,97);   
 }
 /* Remove Margins,set model, Smooth scroll */
 * {box-sizing: border-box;
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
-    
+    scroll-behavior: smooth;    
 }
+
 /* Set Font style and color */
 body {
     color: var(--white);
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--black);
 }
+
 /* Header Nav Styles Start */
-header a {
+a {
     text-decoration: none;
-    color: var(--white);
-    
+    color: var(--white);    
 }
 
 header {
@@ -38,33 +37,30 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    }
+}
 
 header h1 {
     font-size: 3vw;
-    }
+}
 
 header h1 a {
     text-shadow: .09vw .1vw black;
-    
-     
 }
- header nav ul {
+
+  ul {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     list-style: none;
-   
 }
 
- header nav ul li a {
+ ul li a {
     padding: 15px 15px 0 15px;
     margin: 15px;
     font-size: 1.5vw;
     text-shadow: 1px 1px 1px var(--violet);    
     box-shadow:  0 8px 6px -6px rgb(36,187,206, .8);
-   
 }
 
 
@@ -101,8 +97,7 @@ header h1 a {
     justify-content: center;
     align-items: flex-start;
     margin-right: 10px;
-    }
-
+}
 
 .section-title{
     margin-right: 10px;
@@ -112,8 +107,7 @@ header h1 a {
     display: flex;
     flex-flow: column wrap;
     align-items: flex-end;
-    text-align: right;  
-    
+    text-align: right;    
 }
 
 .about-content{
@@ -122,8 +116,7 @@ header h1 a {
     justify-content:flex-start;
     width: 70%;
     padding: 20px;
-    box-shadow: -8px 0 6px -6px rgb(36,187,206, .8);
-    
+    box-shadow: -8px 0 6px -6px rgb(36,187,206, .8);    
 }
 
 .about-content p:nth-child(odd){
@@ -137,9 +130,10 @@ header h1 a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    margin-right: 10px;}
+    margin-right: 10px;
+}
 
-.title{
+.title {
         margin-right: 10px;
         font-size: xx-large;
         padding: 10px;
@@ -147,10 +141,8 @@ header h1 a {
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-end;
-        text-align: right;  
-        
+        text-align: right;        
 }
-
 
 .grid-wrapper {
     display:flex;
@@ -159,8 +151,7 @@ header h1 a {
     padding: 20px;
     width: 70%;
     min-height: 60vh;
-    box-shadow: -8px 0 6px -6px rgb(36,187,206, .8);
-    
+    box-shadow: -8px 0 6px -6px rgb(36,187,206, .8);    
 }
 
 .grid-container {
@@ -169,9 +160,8 @@ header h1 a {
     grid-template-columns: repeat(3,2fr);
     grid-template-rows: repeat(3, 1.5fr);
     gap: 15px 15px;
-    
-
 }
+
 .grid-item {
     display:flex;
     flex-flow: column;
@@ -201,9 +191,8 @@ header h1 a {
 
 .item-holder{
     background-color: black;
-
-   
 }
+
 .grid-item h2, .grid-item h3{
     font-size: smaller;
 }
@@ -225,27 +214,9 @@ header h1 a {
     box-shadow: -8px 0 6px -6px rgb(36,187,206, .8);
 }
 
-.contact ul { 
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style: none;
-    width: 100%;
-}
 
-.contact ul li{
-    padding: 15px 15px 0 15px;
-    margin: 15px;
-    font-size: 22px;
-    text-shadow: 1px 1px 1px var(--violet);    
-    box-shadow:  0 8px 6px -6px rgb(36,187,206, .8);
-}
 
-.contact-content li a {
-    text-decoration: none;
-    color: var(--white)
-}
+
 
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
