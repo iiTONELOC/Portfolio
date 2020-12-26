@@ -9,12 +9,14 @@
     --light-blue: rgb(36,187,206);
     --dark-blue: rgb(40,85,153);
     --violet: rgb(119,47,97);
+   
 }
 /* Remove Margins,set model, Smooth scroll */
 * {box-sizing: border-box;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    
 }
 /* Set Font style and color */
 body {
@@ -43,9 +45,11 @@ header h1 {
     }
 
 header h1 a {
-    text-shadow: .2vw .15vw var(--violet);
+    text-shadow: .09vw .1vw black;
+    
+     
 }
-header nav ul {
+ header nav ul {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -54,10 +58,10 @@ header nav ul {
    
 }
 
-header nav ul li a {
+ header nav ul li a {
     padding: 15px 15px 0 15px;
     margin: 15px;
-    font-size: 20px;
+    font-size: 1.5vw;
     text-shadow: 1px 1px 1px var(--violet);    
     box-shadow:  0 8px 6px -6px rgb(36,187,206, .8);
    
@@ -79,7 +83,7 @@ header nav ul li a {
      margin: 30px;
      background-color: rgb(49,38,44, .4);
      font-weight: bold;
-     font-size: small;
+     font-size: larger;
      color: var(--white);
      text-shadow: 0 0 12p rgb(42,76,49);
      text-align: center;
@@ -100,7 +104,8 @@ header nav ul li a {
 
 
 .section-title{
-    margin: 10px;
+    margin-right: 10px;
+    font-size: xx-large;
     padding: 10px;
     width: 25%;
     display: flex;
@@ -119,9 +124,6 @@ header nav ul li a {
     padding: 20px;
     box-shadow: -8px 0 6px -6px rgb(36,187,206, .8);
     
-}
-.about p{
-    font-size: smaller;
 }
 
 .about-content p:nth-child(odd){
@@ -193,6 +195,43 @@ header nav ul li a {
     font-size: smaller;
 }
 
+/*Contact Styles*/
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.contact-content{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 70%;
+    padding: 20px;
+    box-shadow: -8px 0 6px -6px rgb(36,187,206, .8);
+}
+
+.contact ul { 
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
+
+.contact ul li{
+    padding: 15px 15px 0 15px;
+    margin: 15px;
+    font-size: 22px;
+    text-shadow: 1px 1px 1px var(--violet);    
+    box-shadow:  0 8px 6px -6px rgb(36,187,206, .8);
+}
+
+.contact-content li a {
+    text-decoration: none;
+    color: var(--white)
+}
 
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
