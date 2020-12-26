@@ -173,6 +173,8 @@ header h1 a {
 }
 
 .code-refactor{
+    grid-column: 3/4;
+    grid-row: -4/-3;
     background-image: url(../Images/solvedscreenshot.png);
     background-size: cover;
     background-position: top 40%;
