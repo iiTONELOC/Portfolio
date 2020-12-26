@@ -59,7 +59,7 @@ header nav ul li a {
     margin: 15px;
     font-size: 20px;
     text-shadow: 1px 1px 1px var(--violet);    
-    box-shadow:  0 8px 6px -6px rgb(119,47,97, .8);
+    box-shadow:  0 8px 6px -6px rgb(36,187,206, .8);
    
 }
 
@@ -83,11 +83,11 @@ header nav ul li a {
      color: var(--white);
      text-shadow: 0 0 12p rgb(42,76,49);
      text-align: center;
-     border: 5px solid rgba(36,187,206, 0.89);
+     border: 1px solid rgba(36,187,206, 0.89);
      box-shadow:
      inset -2px -2px 8px 4px var(--light-blue),
      inset 2px 2px 8px 4px var(--light-blue), 
-     0 0 10px 5px var(--light-blue);     
+     0 0 15px 8px var(--light-blue);     
 }
 
 /* About Section Styles Start */
@@ -148,6 +148,16 @@ header nav ul li a {
     align-items: flex-end;
     box-shadow: -8px 0 6px -6px rgb(36,187,206, .8);
     
+}
+
+.grid-container {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: 1px solid rgb(36,187,206, 0.89);
+    box-shadow:     
+     0 0 3px 1.5px var(--light-blue);
+
 }
 
 
