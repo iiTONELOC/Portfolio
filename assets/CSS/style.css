@@ -2,10 +2,7 @@
 :root {
     /* Color Palette */
     --black: rgb(49,38,44);
-    --rust: rgb(222,166,55);
     --white: rgb(239,224,216);
-    --gray: rgb(114,102,103);
-    --green: rgb(42,76,49);
     --light-blue: rgb(36,187,206);
     --dark-blue: rgb(40,85,153);
     --violet: rgb(119,47,97);   
@@ -58,7 +55,7 @@ header h1 a {
  ul li a {
     padding: 15px 15px 0 15px;
     margin: 15px;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
     text-shadow: 1px 1px 1px var(--violet);    
     box-shadow:  0 8px 6px -6px rgb(36,187,206, .8);
 }
@@ -183,24 +180,24 @@ header h1 a {
 .item-holder{
     background-color: black;
 }
-.box {
-    margin: 2px;
-    padding: 15px 10px;
+.box {    
+    padding: 10px 5px;
     background-color: var(--light-blue);
-    box-shadow:   
-    0 0 7px 4px var(--light-blue);
-    position: relative;
+    box-shadow:  
+    0 0 6px 4px var(--light-blue);
+    margin-left: 3px;
+    margin-bottom: 30px;   
 }
 .box h2 {
-    font-size: 1.5vw;
-    margin-bottom: 3px;    
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    color: black;   
 }
 .box h3 {
-    font-size: .8vw;
+    font-size: 16px;
+    color: black;
 
-}
-.box{
-    border: 3px solid var(--light-blue)
 }
 
 /*Contact Styles*/
