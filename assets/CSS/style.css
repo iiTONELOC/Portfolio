@@ -20,6 +20,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--black);
 }
+.box-shadow{
+    box-shadow:
+    inset -2px -2px 8px 4px var(--light-blue),
+    inset 2px 2px 8px 4px var(--light-blue), 
+    0 0 15px 8px var(--light-blue);     
+
+}
 
 /* Header Nav Styles Start */
 a {
@@ -81,10 +88,6 @@ header h1 a {
      text-shadow: 0 0 12p rgb(42,76,49);
      text-align: center;
      border: 1px solid rgba(36,187,206, 0.89);
-     box-shadow:
-     inset -2px -2px 8px 4px var(--light-blue),
-     inset 2px 2px 8px 4px var(--light-blue), 
-     0 0 15px 8px var(--light-blue);     
 }
 
 /* About Section Styles Start */
@@ -155,10 +158,6 @@ header h1 a {
     align-items: flex-start;
     text-align: center;
     border: 1px solid var(--light-blue);
-    box-shadow:  
-    inset -2px -2px 8px 4px var(--light-blue),
-    inset 2px 2px 8px 4px var(--light-blue), 
-    0 0 10px 6px var(--light-blue);     
 }
 
 .run-buddy {
