@@ -100,6 +100,7 @@ header h1 a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
+    margin-right: 10px;
     }
 
 
@@ -111,8 +112,7 @@ header h1 a {
     display: flex;
     flex-flow: column wrap;
     align-items: flex-end;
-    text-align: right;
-    
+    text-align: right;  
     
 }
 
@@ -136,8 +136,21 @@ header h1 a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;    
-    }
+    align-items: flex-start;
+    margin-right: 10px;}
+
+.title{
+        margin-right: 10px;
+        font-size: xx-large;
+        padding: 10px;
+        width: 25%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        text-align: right;  
+        
+}
+
 
 .grid-wrapper {
     display:flex;
@@ -152,10 +165,10 @@ header h1 a {
 
 .grid-container {
     display:grid;
-    width: 80%;
+    width: 100%;
     grid-template-columns: repeat(3,2fr);
     grid-template-rows: repeat(3, 1.5fr);
-    gap: 10px 10px;
+    gap: 15px 15px;
     
 
 }
@@ -201,6 +214,7 @@ header h1 a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
+    margin-right: 10px;
 }
 .contact-content{
     display:flex;
@@ -214,7 +228,7 @@ header h1 a {
 .contact ul { 
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     list-style: none;
     width: 100%;
