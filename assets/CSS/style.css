@@ -181,9 +181,23 @@ header h1 a {
 .item-holder{
     background-color: black;
 }
+.box {
+    margin: 2px;
+    padding: 15px 10px;
+    background-color: var(--light-blue);
+    box-shadow:   
+    0 0 7px 4px var(--light-blue);
+}
+.box h2 {
+    font-size: 1.5vw;
+    margin-bottom: 3px;    
+}
+.box h3 {
+    font-size: .8vw;
 
-.grid-item h2, .grid-item h3{
-    font-size: smaller;
+}
+.box{
+    border: 3px solid var(--light-blue)
 }
 
 /*Contact Styles*/
