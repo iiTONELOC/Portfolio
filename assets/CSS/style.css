@@ -163,7 +163,7 @@ header h1 a {
 .run-buddy {
     grid-column: 1/span 2;
     grid-row: 1/span 2;
-    background-image: url(../Images/run_buddy.jpeg.jpeg);
+    background-image: url(../Images/run-buddy.gif);
     background-size: cover;
     background-position: top 40%;
 }
