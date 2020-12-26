@@ -140,18 +140,19 @@ header nav ul li a {
 .grid-wrapper {
     display:flex;
     flex-wrap:wrap;
-    justify-content: flex-start;
+    justify-content: center;
     padding: 20px;
     width: 70%;
+    min-height: 60vh;
     box-shadow: -8px 0 6px -6px rgb(36,187,206, .8);
     
 }
 
 .grid-container {
     display:grid;
-    width: 100%;
+    width: 80%;
     grid-template-columns: repeat(3,2fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1.5fr);
     gap: 10px 10px;
     
 
