@@ -187,6 +187,7 @@ header h1 a {
     background-color: var(--light-blue);
     box-shadow:   
     0 0 7px 4px var(--light-blue);
+    position: relative;
 }
 .box h2 {
     font-size: 1.5vw;
