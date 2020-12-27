@@ -25,9 +25,25 @@ The goal was to build a single page web application using knowledge relevant to 
 
 ![provided-mock-up](./assets/images/mock-up.gif)
 
+# DEMO
+
+You can visit the live site here: [MyPortfolio](https://iitoneloc.github.io/Portfolio/).
+
+# Technology Stack
+
+Table below shows technologies used and links to provide acknowledgements for materials referenced. 
+
+| Technology | Description                        | Links |
+| ---------- | -----------------------------------| ------|
+|![GitHub top language](https://img.shields.io/github/languages/top/iiTONELOC/Portfolio) | Hyper Text Markup Language |[Clickable-div](https://stackoverflow.com/questions/9228730/how-do-i-make-entire-div-a-link/9228754 ) |
+|![CSS](https://img.shields.io/badge/CSS-38.5%25-rebeccapurple)| Cascading Style Sheets |[Smooth-scroll](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section1), [Complete-Guide-To-Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), [Complete-Guide-To-Grid](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), [background-attachment](https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment) |
+
+
+
+
 
 
 
 
 ### LICENSE 
-#### NONE
+**NONE**
