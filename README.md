@@ -1,7 +1,7 @@
 # **My Portfolio**
 
 
-![Screenshot](./assets/images/screenshot.gif)
+![Screenshot](https://github.com/iiTONELOC/Portfolio/blob/master/assets/Images/screenshot.gif)
 
 **My Portfolio**, features a website that serves a place to showcase recent work and as a way for prospective employers to reach out and get in touch. As I am currently taking a program in web development this site will frequently be updated as I learn new technologies and techniques. 
 
@@ -23,7 +23,7 @@ The goal was to build a single page web application using knowledge relevant to 
 
 **Mock-up:**
 
-![provided-mock-up](./assets/images/mock-up.gif)
+![provided-mock-up](https://github.com/iiTONELOC/Portfolio/blob/master/assets/Images/mock-up.gif)
 
 # DEMO
 
