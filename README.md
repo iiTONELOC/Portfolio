@@ -5,7 +5,7 @@
 
 **My Portfolio**, features a website that serves a place to showcase recent work and as a way for prospective employers to reach out and get in touch. As I am currently taking a program in web development this site will frequently be updated as I learn new technologies and techniques. 
 
-The goal was to build a single page web application using knowledge relevant to the weekly materials such as *flexbox* and *flexgrid* while meeting the following criteria and matching the appearance and functionality of the provided mock-up:
+The goal was to build a single page web application using knowledge relevant to the weekly materials such as *flexbox* and *grid* while meeting the following criteria and matching the appearance and functionality of the provided mock-up:
 
     GIVEN I need to sample a potential employee's previous work
     WHEN I load their portfolio
