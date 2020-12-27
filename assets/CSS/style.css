@@ -71,25 +71,24 @@ header h1 a {
 /* Hero Styles Start */
 .hero {
     background-image: url("../Images/hero.jpg");
-    height: 250px;
+    height: 400px;
     background-size: cover;
     background-position: 80%;
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-end;
    
 
 }
 
 .img {
-  display:flex;
-  align-self: center;
-  max-width: 30%,    
+    
 }
 
 .headshot {
-    margin-left: 20px;    
+    float: left;
+    margin: 20px;    
     background-size: cover;
     height: 200px;
     box-shadow:
