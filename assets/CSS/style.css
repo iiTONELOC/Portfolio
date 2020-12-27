@@ -75,12 +75,32 @@ header h1 a {
     background-size: cover;
     background-position: 80%;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;    
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+   
+
 }
+
+.img {
+  display:flex;
+  align-self: center;
+  max-width: 30%,    
+}
+
+.headshot {
+    margin-left: 20px;    
+    background-size: cover;
+    height: 200px;
+    box-shadow:
+    0 0 15px 8px rgb(217, 145, 41);  
+    }
+
+
+
 .catch-phrase h1{
      padding: 20px;
-     margin: 30px;
+     margin: 20px;
      background-color: rgb(49,38,44, .4);
      font-weight: bold;
      font-size: larger;
