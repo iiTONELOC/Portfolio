@@ -267,6 +267,35 @@ p {
         
     }
 
+    .contact ul a {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 929px) {
+    .hero {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid-container {
+        max-height: 400px;
+    }
+}
+
+@media screen and (max-width: 879px) {
+    .section-content {
+        min-width: 100%;
+        box-shadow: 0px -8px 6px -6px rgb(36,187,206, .8); 
+    }
+
+    .section-title {
+        justify-content: center;
+        text-align: center;
+    }
+
+   
 }
 
 
