@@ -295,6 +295,14 @@ p {
         text-align: center;
     }
 
+    .title {
+        justify-content: center;
+    }
+    
+    .contact ul {
+        justify-content: center;
+    }
+
    
 }
 
