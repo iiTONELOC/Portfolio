@@ -291,6 +291,7 @@ p {
 
     .title {
         justify-content: center;
+        text-align: center;
     }
     
     .contact ul {
