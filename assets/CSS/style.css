@@ -19,6 +19,7 @@ body {
     color: var(--white);
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--black);
+    
 }
 .box-shadow{
     box-shadow:
@@ -71,32 +72,24 @@ header h1 a {
 /* Hero Styles Start */
 .hero {
     background-image: url("../Images/hero.jpg");
-    height: 250px;
+    height: 325px;
     background-size: cover;
     background-position: 80%;
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
-    align-items: center;
-   
-
-}
-
-.img {
-  display:flex;
-  align-self: center;
-  max-width: 30%,    
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .headshot {
-    margin-left: 20px;    
+    float: left;
+    margin-right:15px;
+    margin-bottom: 5px;
     background-size: cover;
     height: 200px;
     box-shadow:
-    0 0 15px 8px rgb(217, 145, 41);  
-    }
-
-
+    0 0 10px 6px var(--light-blue);
+}
 
 .catch-phrase h1{
      padding: 20px;
@@ -123,7 +116,7 @@ header h1 a {
     margin-right: 10px;
     font-size: xx-large;
     padding: 10px;
-    width: 25%;
+    width: 20%;
     display: flex;
     flex-flow: column wrap;
     align-items: flex-end;
@@ -134,14 +127,17 @@ header h1 a {
     display:flex;
     flex-wrap: wrap;
     justify-content:flex-start;
-    width: 70%;
+    width: 72%;
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: -8px 0 6px -6px rgb(36,187,206, .8);    
 }
-
-.about-content p:nth-child(odd){
-    margin-bottom: 15px;    
+p:first-of-type{
+    padding-top: 5px;
+   margin-bottom: 10px;
+}
+p{
+    line-height: 1.5;
 }
 /* About Styles End */
 
@@ -152,7 +148,7 @@ header h1 a {
     margin-right: 10px;
     font-size: xx-large;
     padding: 10px;
-    width: 25%;
+    width: 20%;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -164,11 +160,13 @@ header h1 a {
     width: 100%;
     grid-template-columns: repeat(3,2fr);
     grid-template-rows: repeat(3, 1.5fr);
-    gap: 15px 15px;
-    min-height: 450px;
+    gap: 20px 20px;
+    min-height: 600px;
 }
+
 .section-content {
     justify-content: center;
+    margin: 10px;
 }
 
 .grid-item {
@@ -178,6 +176,11 @@ header h1 a {
     align-items: flex-start;
     text-align: center;
     border: 1px solid var(--light-blue);
+    opacity: .95;
+}
+
+.grid-item:hover {
+    opacity: .5;
 }
 
 .run-buddy {
@@ -185,8 +188,10 @@ header h1 a {
     grid-row: 1/span 2;
     background-image: url(../Images/run-buddy.gif);
     background-size: cover;
-    background-position: top 40%;
+    background-position: top 40%;    
 }
+
+
 
 .code-refactor{
     grid-column: 3/4;
@@ -194,25 +199,29 @@ header h1 a {
     background-image: url(../Images/solvedscreenshot.png);
     background-size: cover;
     background-position: top 40%;
+    
 }
 
 .item-holder{
     background-color: black;
 }
+
 .box {    
     padding: 10px 5px;
     background-color: var(--light-blue);
     box-shadow:  
     0 0 6px 4px var(--light-blue);
     margin-left: 3px;
-    margin-bottom: 30px;   
+    margin-bottom: 30px;    
 }
+
 .box h2 {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 3px;
     color: black;   
 }
+
 .box h3 {
     font-size: 16px;
     color: black;
@@ -223,13 +232,8 @@ header h1 a {
 
 .contact {
  align-self: flex-end;
- min-height: 130px;
+ min-height: 125px;
 }
-
-
-
-
-
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
