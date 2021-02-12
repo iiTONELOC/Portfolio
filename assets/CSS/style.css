@@ -133,11 +133,13 @@ header h1 a {
     box-shadow: -8px 0 6px -6px rgb(36,187,206, .8);    
 }
 p:first-of-type{
-    padding-top: 5px;
-   margin-bottom: 10px;
+    margin-bottom: 10px;
 }
-p{
+p {
     line-height: 1.5;
+    font-size: 22px;
+    text-shadow: 0 0 12p rgb(42,76,49);
+
 }
 /* About Styles End */
 
@@ -186,9 +188,7 @@ p{
 .covid-master {
     grid-column: 1/span 2;
     grid-row: 1/span 2;
-    background-image: url(../Images/bored.gif);
-    background-size: cover;
-        
+    background-image: url(../Images/bored.gif);        
 }
 
 
@@ -280,6 +280,38 @@ p{
         
     }
 
+    .contact ul a {
+        font-size: 20px;
+    }
+    .hero {
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+@media screen and (max-width: 879px) {
+    .section-content {
+        min-width: 100%;
+        box-shadow: 0px -8px 6px -6px rgb(36,187,206, .8); 
+    }
+
+    .section-title {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .title {
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .contact ul {
+        justify-content: center;
+    }
+
+   
 }
 
 
