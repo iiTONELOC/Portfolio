@@ -185,12 +185,10 @@ p {
     opacity: .5;
 }
 
-.run-buddy {
+.covid-master {
     grid-column: 1/span 2;
     grid-row: 1/span 2;
-    background-image: url(../Images/run-buddy.gif);
-    background-size: cover;
-    background-position: top 40%;    
+    background-image: url(../Images/bored.gif);        
 }
 
 
@@ -201,6 +199,21 @@ p {
     background-image: url(../Images/solvedscreenshot.png);
     background-size: cover;
     background-position: top 40%;
+    
+}
+.run-buddy{
+    background-image: url(../Images/run_buddy.jpeg.jpeg);
+    background-size: cover;
+}
+.weather-dashboard{
+    background-image: url(../Images/screenshot.gif.gif);
+    background-size: cover;
+    grid-column: -4/-2
+    
+}
+.work1{
+    background-image: url(../Images/afternoon.png);
+    background-size: cover;
     
 }
 
