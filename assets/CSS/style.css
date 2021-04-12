@@ -185,10 +185,17 @@ p {
     opacity: .5;
 }
 
-.covid-master {
+/* .covid-master {
     grid-column: 1/span 2;
     grid-row: 1/span 2;
     background-image: url(../Images/bored.gif);        
+} */
+
+.buzz-master {
+    grid-column: 1/span 2;
+    grid-row: 1/span 2;
+    background-image: url(../Images/sportsBuzz.jpeg); 
+    background-size: cover;     
 }
 
 
@@ -196,7 +203,7 @@ p {
 .code-refactor{
     grid-column: 3/4;
     grid-row: -4/-3;
-    background-image: url(../Images/solvedscreenshot.png);
+    background-image: url(../Images/screenshot.gif.gif);
     background-size: cover;
     background-position: top 40%;
     
@@ -206,7 +213,7 @@ p {
     background-size: cover;
 }
 .weather-dashboard{
-    background-image: url(../Images/screenshot.gif.gif);
+    background-image: url(../Images/bored.gif);
     background-size: cover;
     grid-column: -4/-2
     
